@@ -55,9 +55,29 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="bonifico.xaml.cs">
+      <DependentUpon>bonifico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="deposita.xaml.cs">
+      <DependentUpon>deposita.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Gestione.cs" />
+    <Compile Include="preleva.xaml.cs">
+      <DependentUpon>preleva.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="sportello.xaml.cs">
+      <DependentUpon>sportello.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Utente.cs" />
     <Compile Include="Utenti.cs" />
+    <Page Include="bonifico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="deposita.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -70,6 +90,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="preleva.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="sportello.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

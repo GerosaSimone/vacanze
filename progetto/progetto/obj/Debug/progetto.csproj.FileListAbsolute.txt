@@ -1,0 +1,17 @@
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\progetto.csprojAssemblyReference.cache
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\MainWindow.g.cs
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\App.g.cs
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\progetto_MarkupCompile.cache
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\progetto_MarkupCompile.lref
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\bin\Debug\progetto.exe.config
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\bin\Debug\progetto.exe
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\bin\Debug\progetto.pdb
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\MainWindow.baml
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\progetto.g.resources
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\progetto.Properties.Resources.resources
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\progetto.csproj.GenerateResource.cache
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\progetto.csproj.CoreCompileInputs.cache
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\progetto.exe
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\progetto.pdb
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\sportello.g.cs
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\sportello.baml

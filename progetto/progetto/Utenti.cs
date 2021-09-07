@@ -7,7 +7,7 @@ using System.Windows.Documents;
 
 namespace progetto
 {
-    class Utenti
+    public class Utenti
     {
         public List<Utente> utenti { get; set; }
 
@@ -35,6 +35,25 @@ namespace progetto
                     return true;
             }
             return false;
+        }
+
+        public bool Esiste(Utente tmp)
+        {
+
+            for (int i = 0; i < NumEl(); i++)
+            {
+                if (tmp.nome == GetUtente(i).nome && tmp.pass == GetUtente(i).pass)
+                    return true;
+            }
+            return false;
+        }
+        public void aggiorna(Utente tmp)
+        {
+            for (int i = 0; i < NumEl(); i++)
+            {
+                if (tmp.nome == GetUtente(i).nome && tmp.pass == GetUtente(i).pass)
+                    GetUtente(i).saldo = tmp.saldo;
+            }
         }
 
 

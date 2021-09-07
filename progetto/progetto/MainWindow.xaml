@@ -17,7 +17,8 @@
         <TextBox x:Name="Password" HorizontalAlignment="Left" Height="43" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" Grid.Column="1" Margin="152.2,220,0,0"/>
         <Button Content="Login" Grid.Column="1" HorizontalAlignment="Left" Margin="152.2,288,0,0" VerticalAlignment="Top" Width="192" Height="35" Click="Button_Click"/>
         <Label Content="se non sei ancora registrato clicca registrati" Grid.Column="1" HorizontalAlignment="Left" Margin="448.2,151,0,0" VerticalAlignment="Top" Height="30"/>
-        <Button Content="Registrati" Grid.Column="1" HorizontalAlignment="Left" Margin="467.2,197,0,0" VerticalAlignment="Top" Width="192" Height="35"/>
+        <Button Content="Registrati" Grid.Column="1" HorizontalAlignment="Left" Margin="467.2,197,0,0" VerticalAlignment="Top" Width="192" Height="35" Click="Button_Click_1"/>
+        <Label x:Name="err" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="152.2,45,0,0" VerticalAlignment="Top" Width="192"/>
 
     </Grid>
 </Window>

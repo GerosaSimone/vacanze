@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace progetto
 {
-    class Utente
+    public class Utente
     {
        
         public string nome { get; set; }

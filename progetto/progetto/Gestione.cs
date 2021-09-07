@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace progetto
 {
-    class Gestione
+    public class Gestione
     {
         private string nomeFile;
         public Gestione(string nomeFile) => this.nomeFile = nomeFile;
