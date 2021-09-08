@@ -34,34 +34,54 @@ namespace progetto
         {
             u.saldo += 50;
             ut.aggiorna(u);
+            g.salva(ut);
+            home();
+
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             u.saldo += 100;
             ut.aggiorna(u);
+            g.salva(ut);
+            home();
+
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             u.saldo += 250;
             ut.aggiorna(u);
+            g.salva(ut);
+            home();
+
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             u.saldo += 500;
             ut.aggiorna(u);
+            g.salva(ut);
+            home();
+
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            
+            //controllo se numeri
             u.saldo += Convert.ToInt32(soldi.Text);
             ut.aggiorna(u);
+            g.salva(ut);
+            home();
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            sportello a = new sportello(ut, u, g);
+            a.Show();
+            this.Hide();
+        }
+        private void home()
         {
             sportello a = new sportello(ut, u, g);
             a.Show();

@@ -15,3 +15,9 @@ C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\progetto.exe
 C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\progetto.pdb
 C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\sportello.g.cs
 C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\sportello.baml
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\bonifico.g.cs
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\deposita.g.cs
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\preleva.g.cs
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\bonifico.baml
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\deposita.baml
+C:\Users\gero\Desktop\progetto\vacanze\progetto\progetto\obj\Debug\preleva.baml

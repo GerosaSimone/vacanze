@@ -35,7 +35,7 @@ namespace progetto
             err.Content = "";
             if (!vuoti())
             {
-                Utente u = new Utente(Username.Text, Password.Text);
+                Utente u = ut.trova(Username.Text, Password.Text);
                 if (ut.Esiste(u))
                 {
                     sportello a = new sportello(ut, u, g);
@@ -69,7 +69,7 @@ namespace progetto
             if (!vuoti())
             {
                 Utente u = new Utente(Username.Text, Password.Text);
-                if (!ut.Esiste(u))
+                if (!ut.Esiste(u)&&!ut.ibanEsiste(u))
                 {
                     ut.add(u);
                     g.aggiungiUtente(u);

@@ -33,6 +33,7 @@ namespace progetto
             this.ut = u;
             this.u = ut;
             saldo.Content = ut.saldo;
+            iban.Content = ut.IBAN;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -44,17 +45,23 @@ namespace progetto
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+            deposita a = new deposita(ut, u, g);
+            a.Show();
+            this.Hide();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-
+            preleva a = new preleva(ut, u, g);
+            a.Show();
+            this.Hide();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-
+            bonifico a = new bonifico(ut, u, g);
+            a.Show();
+            this.Hide();
         }
     }
 }

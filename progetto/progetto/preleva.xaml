@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="preleva" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="home" HorizontalAlignment="Left" Margin="709,175,0,0" VerticalAlignment="Top" Width="75" Height="55" Click="Button_Click_5"/>
+        <Button Content="250" HorizontalAlignment="Left" Margin="34,279,0,0" VerticalAlignment="Top" Width="169" Height="66" Click="Button_Click_2"/>
+        <Button Content="100" HorizontalAlignment="Left" Margin="34,164,0,0" VerticalAlignment="Top" Width="169" Height="66" Click="Button_Click_1"/>
+        <Button Content="50" HorizontalAlignment="Left" Margin="34,40,0,0" VerticalAlignment="Top" Width="169" Height="66" Click="Button_Click"/>
+        <Button Content="500" HorizontalAlignment="Left" Margin="320,40,0,0" VerticalAlignment="Top" Width="169" Height="66" Click="Button_Click_3"/>
+        <Button Content="conferma" HorizontalAlignment="Left" Margin="333,287,0,0" VerticalAlignment="Top" Width="156" Height="27" Click="Button_Click_4"/>
+        <Label Content="altra somma:" HorizontalAlignment="Left" Margin="333,173,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.295,0.51" Width="156"/>
+        <TextBox x:Name="soldi" HorizontalAlignment="Left" Height="51" Margin="333,216,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="156"/>
+
     </Grid>
 </Window>
