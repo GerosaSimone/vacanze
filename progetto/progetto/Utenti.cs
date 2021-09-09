@@ -84,6 +84,16 @@ namespace progetto
             return new Utente();
         }
 
+        public int saldoIban(string Iban)
+        {
+            for (int i = 0; i < NumEl(); i++)
+            {
+                if (Convert.ToInt32(Iban) == GetUtente(i).IBAN)
+                    return GetUtente(i).saldo;               
+            }
+            return -1;
+        }
+
         public void trovaEaggiungi(String tmp, int soldi)
         {
             for (int i = 0; i < NumEl(); i++)

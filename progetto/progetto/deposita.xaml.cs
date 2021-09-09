@@ -35,6 +35,8 @@ namespace progetto
             u.saldo += 50;
             ut.aggiorna(u);
             g.salva(ut);
+            MessageBox.Show("Deposito completato");
+
             home();
 
         }
@@ -44,6 +46,8 @@ namespace progetto
             u.saldo += 100;
             ut.aggiorna(u);
             g.salva(ut);
+            MessageBox.Show("Deposito completato");
+
             home();
 
         }
@@ -53,6 +57,8 @@ namespace progetto
             u.saldo += 250;
             ut.aggiorna(u);
             g.salva(ut);
+            MessageBox.Show("Deposito completato");
+
             home();
 
         }
@@ -62,17 +68,29 @@ namespace progetto
             u.saldo += 500;
             ut.aggiorna(u);
             g.salva(ut);
+            MessageBox.Show("Deposito completato");
+
             home();
 
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            //controllo se numeri
-            u.saldo += Convert.ToInt32(soldi.Text);
-            ut.aggiorna(u);
-            g.salva(ut);
-            home();
+           
+            int i = 0;
+            if (int.TryParse(soldi.Text, out i))
+            {
+                u.saldo += i;
+                ut.aggiorna(u);
+                g.salva(ut);
+                MessageBox.Show("Deposito completato");
+
+                home();
+            }
+            else
+            {
+                err.Content = "inserire solo numeri";
+            }
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)

@@ -27,7 +27,7 @@ namespace progetto
         {
             InitializeComponent();
             g = new Gestione("C:\\Users\\gero\\Desktop\\prova.txt");
-            ut = g.leggi();
+            ut=g.leggi();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

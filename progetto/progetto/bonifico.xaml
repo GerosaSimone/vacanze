@@ -16,6 +16,8 @@
         <Button Content="conferma" HorizontalAlignment="Left" Margin="320,235,0,0" VerticalAlignment="Top" Width="169" Height="31" Click="Button_Click_4"/>
         <Label Content="altra somma:" HorizontalAlignment="Left" Margin="320,124,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.295,0.51" Width="169" Height="27"/>
         <TextBox x:Name="soldi" HorizontalAlignment="Left" Height="51" Margin="320,168,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="169"/>
+        <Label x:Name="err" Content="" HorizontalAlignment="Left" Margin="25,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.295,0.51" Width="240" Height="27"/>
+        <Button Content="home" HorizontalAlignment="Left" Margin="709,168,0,0" VerticalAlignment="Top" Width="75" Height="55" Click="Button_Click_5"/>
 
     </Grid>
 </Window>

@@ -32,48 +32,94 @@ namespace progetto
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            u.saldo -= 50;
-            ut.aggiorna(u);
-            g.salva(ut);
-            home();
+            if (u.saldo >= 50)
+            {
+                u.saldo -= 50;
+                ut.aggiorna(u);
+                g.salva(ut);
+                MessageBox.Show("Prelievo completato");
+                home();
+            }
+            else
+            {
+                err.Content = "saldo insufficente";
+            }
 
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            u.saldo -= 100;
-            ut.aggiorna(u);
-            g.salva(ut);
-            home();
+            if (u.saldo >= 50)
+            {
+                u.saldo -= 50;
+                ut.aggiorna(u);
+                g.salva(ut);
+                MessageBox.Show("Prelievo completato");
+                home();
+            }
+            else
+            {
+                err.Content = "saldo insufficente";
+            }
 
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            u.saldo -= 250;
-            ut.aggiorna(u);
-            g.salva(ut);
-            home();
+            if (u.saldo >= 50)
+            {
+                u.saldo -= 50;
+                ut.aggiorna(u);
+                g.salva(ut);
+                MessageBox.Show("Prelievo completato");
+                home();
+            }
+            else
+            {
+                err.Content = "saldo insufficente";
+            }
 
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            u.saldo -= 500;
-            ut.aggiorna(u);
-            g.salva(ut);
-            home();
+            if (u.saldo >= 50)
+            {
+                u.saldo -= 50;
+                ut.aggiorna(u);
+                g.salva(ut);
+                MessageBox.Show("Prelievo completato");
+                home();
+            }
+            else
+            {
+                err.Content = "saldo insufficente";
+            }
 
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            //controllo se numeri
-            //controllo che non vada in negativo
-            u.saldo -= Convert.ToInt32(soldi.Text);
-            ut.aggiorna(u);
-            g.salva(ut);
-            home();
+            int i = 0;
+            if (int.TryParse(soldi.Text, out i))
+            {
+                if (u.saldo >= i)
+                {
+                    u.saldo -= i;
+                    ut.aggiorna(u);
+                    g.salva(ut);
+                    MessageBox.Show("Prelievo completato");
+                    home();
+                }
+                else
+                {
+                    err.Content = "saldo insufficente";
+                }
+            }
+            else
+            {
+                err.Content = "inserire solo numeri";
+            }
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
