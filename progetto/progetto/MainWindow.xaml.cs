@@ -26,7 +26,7 @@ namespace progetto
         public MainWindow()
         {
             InitializeComponent();
-            g = new Gestione("C:\\Users\\gero\\Desktop\\prova.txt");
+            g = new Gestione(AppDomain.CurrentDomain.BaseDirectory + "prova.txt");
             ut=g.leggi();
         }
 
